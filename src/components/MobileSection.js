@@ -3,7 +3,7 @@ import mobile from '../images/mobile.png'
 export const MobileSection = () => {
 
   return (
-    <section className='mobileSection'>
+    <section className='mobileSection grid__desktop'>
       <div className='mobileSection__text'>
         <span className='mobileSection__text-tag heading__h5' >LOREM</span>
         <h1 className='heading__h1'>

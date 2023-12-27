@@ -4,7 +4,8 @@ import { LaptopSection } from './LaptopSection';
 export const Main = () => {
 
   return (
-    <main>
+    <main >
+      <MobileSection/>
       <MobileSection/>
       <LaptopSection/>
     </main>

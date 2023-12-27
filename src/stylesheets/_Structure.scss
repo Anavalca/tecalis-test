@@ -1,25 +1,27 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box,
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
 }
 
 .App{
   font-family: $mainFont;
   background-color: $white;
+  display: flex;
+  flex-direction: column;
 
-  @include forTablet {
-    margin: 0 100px;
+  &__vector{
+    height: 349;
+    position: absolute;
+    right: 0;
   }
-
-  @include forPc {
-    margin: 0 240px;
-  }
-
-  li{
-    list-style: none;
-  }
-
-  a{
-    text-decoration: none;
-  }
+ 
 }

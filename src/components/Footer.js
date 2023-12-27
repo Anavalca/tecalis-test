@@ -1,8 +1,10 @@
 export const Footer = () => {
 
   return (
-    <footer>
-
+    <footer >
+      <div className='grid__desktop'>
+      grid__desktop
+      </div>
     </footer>
   );
 }

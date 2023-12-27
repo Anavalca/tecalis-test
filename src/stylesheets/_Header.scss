@@ -1,42 +1,50 @@
-.header {
-  padding: 16px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
+header{
   @include forPc {
-    justify-content: flex-start;
-    padding: 16px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 
-  &__logo {
-    height: 48px;
-  }
-
-  &__menu {
-
-    &-icon {
-      display: block;
-      height: 40px;
-      width: 40px;
-      background: url(../images/menu.png) no-repeat;
-
-      @include forPc {
-        display: none;
-      }
+  .header {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    @include forPc {
+      padding: 16px 0;
+      justify-content: flex-start;
     }
-
-    &-items{
-      display: none;
-      padding-left: 80px;
-
-      @include forPc {
-        display: flex;
-        gap: 32px;
+  
+    &__logo {
+      height: 48px;
+    }
+  
+    &__menu {
+  
+      &-icon {
+        display: block;
+        height: 40px;
+        width: 40px;
+        background: url(../images/menu.png) no-repeat;
+  
+        @include forPc {
+          display: none;
+        }
       }
-
-      a{
-        color: $darkBlue;
+  
+      &-items{
+        display: none;
+        padding-left: 80px;
+  
+        @include forPc {
+          display: flex;
+          gap: 32px;
+        }
+  
+        a{
+          color: $darkBlue;
+        }
       }
     }
   }
