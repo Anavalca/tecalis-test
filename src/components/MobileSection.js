@@ -9,7 +9,7 @@ export const MobileSection = () => {
         <h1 className='heading__h1'>
           Lorem ipsum dolor sit amet consectetur adipis
         </h1>
-        <p className='body-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mollis adipiscing in turpis luctus ipsum, amet. Risus ac mauris pellentesque sed nunc nulla accumsan nec. Risus gravida donec tempor feugiat.</p>
+        <p className='body-1'>Lorem ipsum dolor sit amet, <span className='App__link'>consectetur adipiscing</span> elit. <span className='App__link'>Mollis adipiscing</span> in turpis luctus ipsum, amet. Risus ac mauris pellentesque sed nunc nulla accumsan nec. Risus gravida donec tempor feugiat.</p>
         <button className='App__button heading__h4'>Button</button>
       </div>
       <img src={mobile} class="mobileSection__img" alt="Imagen movil" />

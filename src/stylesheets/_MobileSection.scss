@@ -19,11 +19,21 @@
     gap: 32px;
     text-align: center;
 
+    @include forPc {
+      align-items: flex-start;
+      text-align: left;
+    }
+
     &-tag {
       padding: 8px 16px;
       border-radius: 100px;
       border: 2px solid $blue;
       color: $blue;
+
+      &:hover{
+        color: $white;
+        background-color: $blue;
+      }
     }
   }
 

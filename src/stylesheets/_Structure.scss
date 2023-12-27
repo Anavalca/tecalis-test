@@ -39,6 +39,15 @@ a {
     }
   }
 
+  &__link{
+    color: $blue;
+    cursor: pointer;
+
+    &:hover{
+      color: $black;
+    }
+  }
+
   &__button{
     border: none;
     background: none;
@@ -47,6 +56,12 @@ a {
     border-radius: 16px;
     background-color:$turquoise;
     color: $white;
+    cursor: pointer;
+
+    &:hover{
+      background-color: $darkBlue;
+      
+    }
   }
 
 }
