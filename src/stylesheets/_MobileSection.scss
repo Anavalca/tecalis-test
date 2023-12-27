@@ -8,6 +8,7 @@
   @include forPc {
     flex-direction: row;
     gap: 80px;
+    padding: 64px 32px;
   }
 
   &__text {
