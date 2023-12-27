@@ -1,0 +1,44 @@
+.header {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @include forPc {
+    justify-content: flex-start;
+  }
+
+  &__logo {
+    height: 48px;
+  }
+
+  &__menu {
+
+    &-icon {
+      display: block;
+      height: 40px;
+      width: 40px;
+      background: url(../images/menu.png) no-repeat;
+
+      @include forPc {
+        display: none;
+      }
+    }
+
+    &-items{
+      display: none;
+      padding-left: 80px;
+
+      @include forPc {
+        display: flex;
+        gap: 32px;
+      }
+
+      a{
+        color: $darkBlue;
+      }
+
+    }
+
+  }
+}

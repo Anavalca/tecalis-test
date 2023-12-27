@@ -1,11 +1,14 @@
 import '../stylesheets/App.scss';
+import { Header } from './Header';
+import { Main } from './Main';
+import { Footer } from './Footer';
 
-function App() {
+export const App = () => {
   return (
     <div className="App">
-      hola
+      <Header />
+      <Main />
+      <Footer />
     </div>
   );
 }
-
-export default App;

@@ -1,4 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 .App{
   font-family: $mainFont;
   background-color: $white;
+
+  @include forPc {
+    padding: 0 240px;
+  }
+
+  li{
+    list-style: none;
+  }
+
+  a{
+    text-decoration: none;
+  }
 }
