@@ -7,8 +7,12 @@
   font-family: $mainFont;
   background-color: $white;
 
+  @include forTablet {
+    margin: 0 100px;
+  }
+
   @include forPc {
-    padding: 0 240px;
+    margin: 0 240px;
   }
 
   li{

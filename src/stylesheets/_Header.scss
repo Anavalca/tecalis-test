@@ -6,6 +6,7 @@
 
   @include forPc {
     justify-content: flex-start;
+    padding: 16px 0;
   }
 
   &__logo {
@@ -37,8 +38,6 @@
       a{
         color: $darkBlue;
       }
-
     }
-
   }
 }
