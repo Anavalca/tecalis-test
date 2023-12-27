@@ -6,7 +6,6 @@ export const Main = () => {
   return (
     <main >
       <MobileSection/>
-      <MobileSection/>
       <LaptopSection/>
     </main>
   );

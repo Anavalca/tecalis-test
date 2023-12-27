@@ -1,0 +1,78 @@
+[
+  {
+    "id": 1,
+    "title": "Lorem ipsum",
+    "subitems": [
+      { "id": 1, "name": "Section" },
+      { "id": 2, "name": "Section" },
+      { "id": 3, "name": "Section" },
+      { "id": 4, "name": "Section" },
+      { "id": 5, "name": "Section" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Lorem ipsum",
+    "subitems": [
+      { "id": 1, "name": "Section" },
+      { "id": 2, "name": "Section" }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Lorem ipsum",
+    "subtitle":"Title",
+    "subitems": [
+      { "id": 1, "name": "Section" },
+      { "id": 2, "name": "Section" },
+      { "id": 3, "name": "Section" },
+      { "id": 4, "name": "Section" },
+      { "id": 5, "name": "Section" }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "",
+    "subtitle":"Title",
+    "subitems": [
+      { "id": 1, "name": "Section" },
+      { "id": 2, "name": "Section" },
+      { "id": 3, "name": "Section" },
+      { "id": 4, "name": "Section" },
+      { "id": 5, "name": "Section" }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Lorem ipsum",
+    "subitems": [
+      { "id": 1, "name": "Section" },
+      { "id": 2, "name": "Section" },
+      { "id": 3, "name": "Section" },
+      { "id": 4, "name": "Section" },
+      { "id": 5, "name": "Section" }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Lorem ipsum",
+    "subitems": [
+      { "id": 1, "name": "Section" },
+      { "id": 2, "name": "Section" },
+      { "id": 3, "name": "Section" },
+      { "id": 4, "name": "Section" },
+      { "id": 5, "name": "Section" }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Lorem ipsum",
+    "subitems": [
+      { "id": 1, "name": "Section" },
+      { "id": 2, "name": "Section" },
+      { "id": 3, "name": "Section" },
+      { "id": 4, "name": "Section" },
+      { "id": 5, "name": "Section" }
+    ]
+  }
+]

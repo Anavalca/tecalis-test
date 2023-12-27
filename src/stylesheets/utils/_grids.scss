@@ -1,10 +1,10 @@
 .grid__desktop{
   @include forTablet {
-    width: 600px;
+    width: 768px;
   }
   
   @include forPc {
-    width: 1000px;
+    width: 1020px;
   }
   
   @include forXLpc {

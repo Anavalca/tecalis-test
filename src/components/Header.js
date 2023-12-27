@@ -1,10 +1,11 @@
-import logo from '../images/Logo.png'
+import { Logo } from './Logo'
+
 export const Header = () => {
 
   return (
     <header>
       <div className='header grid__desktop'>
-        <img src={logo} class="header__logo" alt="Logo Tecalis" />
+        <Logo/>
         <nav class="header__menu">
           <a href='https://www.tecalis.com/es' class="header__menu-icon" title='hh' alt="logo"></a>
           <ul className='header__menu-items'>

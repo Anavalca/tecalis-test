@@ -1,4 +1,9 @@
 header{
+  @include forTablet {
+    display: flex;
+  justify-content: center;
+  }
+  
   @include forPc {
     width: 100%;
     display: flex;
@@ -14,10 +19,6 @@ header{
     @include forPc {
       padding: 16px 0;
       justify-content: flex-start;
-    }
-  
-    &__logo {
-      height: 48px;
     }
   
     &__menu {
